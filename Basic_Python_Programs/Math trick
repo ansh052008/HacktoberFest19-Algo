@@ -1,0 +1,33 @@
+k = input("What's your name buddy ?-----")
+print("Nice to meet you, ", k,"")
+s=input("Wanna play a game ? (y/n)-----")
+if s == 'y':
+    print(" Choose a 3-digit number, whose integers are in a decreasing order(ex:- 872,765,541 etc.)")
+    x = input("did you do it ? (y/n)-----")
+    if x== 'y' :
+        c = input("Now, reverse the number and subtract this from the original one-----")
+        if c == 'y' :
+            v = input(" Now add this number to it's own reverse number-----")
+            if v == 'y' :
+                print("Now give me a minute....")
+            else :
+                print("Okay...Goodbye")
+                quit()
+        else :
+            print("Okay...Goodbye")
+            quit()
+    else :
+        print("Okay...Goodbye")
+        quit()
+else :
+    print("Okay...Goodbye then.")
+    quit()
+d = input("Is your number 1089 ?!!")
+if d =='y':
+    print("Yay!!!")
+else :
+    u=input("Hmmm.. are you sure ?")
+    if u =='y':
+        print("Well...I am sorry")
+    if u =='n':
+        print("There you go..!!")
